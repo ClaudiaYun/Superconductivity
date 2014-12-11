@@ -38,7 +38,7 @@
 \section{Experiment}
 Temperature and resistance are measured for two different materials: $YBa_{2}Cu_{3}O_{7}$ (YBCO) and $Bi_{2}Sr{2}Ca_{2}Cu_{3}O_{9}$ (BISCO). The experiments are done in two different ways for different materials.\\
 \subsection{YBCO}
-The setup of YBCO experiment is shown in the Fig. \ref{setup}. The device (Fig. \ref{sample}), including the sample, a thermocouple, a current probe and a voltage probe, is put in a plastic-foam cup and immersed in sands, which serve as insulator. %And the leads from the device are connected to a power supply and two digital multimeters (Fig. \ref{meters}) as shown in Fig. \ref{connection}.
+The setup of YBCO experiment is shown in the Fig. \ref{setup}. The device (Fig. \ref{sample}), including the YBCO sample, a thermocouple, a current probe and a voltage probe, is put in a plastic-foam cup and immersed in sands, which serve as insulator. \\
 
 \begin{figure}[h]
 \centering
@@ -54,12 +54,35 @@ The setup of YBCO experiment is shown in the Fig. \ref{setup}. The device (Fig. 
 \label{sample}
 \end{figure}
 
-The device has 
+When superconducting, the material has a very low resistance, which means the resistance of the leads of the probes becomes non-negligible. Therefore a method called four point probe is employed so that only the resistance of the material is measured, not that of the leads. The circuit is shown in Fig. \ref{fpp}. The black rectangle at the bottom represents the YBCO sample, an ammeter is connected in series with the sample through leads 1 and 4, and a voltmeter is connected in parallel with the sample through leads 2 and 3. Then the resistance of the sample could be calculated using Ohm's Law:
+
+\begin{equation}
+R=\frac{V}{I}
+\label{ohm}
+\end{equation}
+
+where V and I are readings of the voltmeter and ammeter respectively. The key point here is that leads 2 and 3 have to be inside leads 1 and 4, in terms of position on the sample. Picture the meters as ideal meters plus lead resistance. The advantage of doing so is that the ammeter approximately measures the current through the sample, because the resistance of the voltmeter is so much bigger than that of the superconductor that the current through the voltmeter is very close to zero; and the voltmeter only measures the voltage across the sample. However, i f the position of the ammeter and voltmeter were switched, as shown in Fig. \ref{fpp2}, the voltmeter would measure the voltage across the lead resistance of the ammeter and the sample resistance connected in parallel. The total resistance of the two in parallel would differ from the sample resistance a lot because when superconducting, the resistance of the sample is comparable to the resistance of the lead. \\
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=16cm]{ybcometers.jpg}
-\caption{The three digital meters used. The top one measures the voltage of the thermocouple, the middle one ? and the bottom one is a power source that is in delta mode, and it reads the resistance of the YBCO sample.}
+\includegraphics[width=8cm]{fourpointprobe2.png}
+\caption{Schematic of four point probe}
+\label{fp}p
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{fourpointprobe3.png}
+\caption{Schematic of the other (bad) configuration of four point probe}
+\label{fpp}
+\end{figure}
+
+The sample is connected to two digital multimeters (DMM) (top two in Fig. \ref{meters}) and one DC power source {bottom one in Fig. \ref{meters}}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{ybcometers.jpg}
+\caption{The DMMs and power supply used. The top one measures the voltage of the thermocouple, the middle one measures the voltage across the sample, but the value is not shown on the screen under delta mode. And the bottom one is a power source that is in delta mode, and it reads the resistance of the YBCO sample.}
 \label{meters}
 \end{figure}
 
