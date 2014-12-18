@@ -36,7 +36,7 @@
 
 %____________Experiment____________________________________________
 \section{Experiment}
-Temperature and resistance are measured for two different materials: $YBa_{2}Cu_{3}O_{7}$ (YBCO) and $Bi_{2}Sr{2}Ca_{2}Cu_{3}O_{9}$ (BISCO). The experiments are done in two different ways for different materials.\\
+Temperature and resistance are measured for two different materials: $YBa_{2}Cu_{3}O_{7}$ (YBCO) and $Bi_{2}Sr{2}Ca_{2}Cu_{3}O_{9}$ (BSCCO). The experiments are done in two different ways for different materials.\\
 \subsection{YBCO}
 The setup of YBCO experiment is shown in the Fig. \ref{setup}. The device (Fig. \ref{sample}), including the YBCO sample, a thermocouple, a current probe and a voltage probe, is put in a plastic-foam cup and immersed in sands, which serve as insulator. The box variable resistor in Fig. \ref{setup} is only used for keeping the free wires at a fixed place. \\
 
@@ -91,24 +91,24 @@ The source is the "DC power supply" in Fig. \ref{fpp} and Fig. \ref{fpp2}. Altho
 
 However, the drawback of this setup is that we could not make computer record the data. So we videotaped the DMMs while the sample was cooled down by liquid nitrogen, and then transcribed the thermocouple voltage and superconductor resistance into analysis tool, i.e. Igor Pro, by hand. To test the current dependence of the critical temperature of the material, four sets of data are collected, with current output of the power supply being 0.1mA, 1mA, 10mA and 100mA respectively.\\
 
-\subsection{BISCO}
+\subsection{BSCCO}
 
-The setup of the experiment on BISCO is shown in Fig. \ref{biscosetup}. The device is also put in a plastic-foam cup and covered by sands. This device is designed in the same manner as the YBCO sample using four point probe.
+The setup of the experiment on BSCCO is shown in Fig. \ref{bsccosetup}. The device is also put in a plastic-foam cup and covered by sands. This device is designed in the same manner as the YBCO sample using four point probe.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=14cm]{biscosetup.jpg}
-\caption{The setup of experiment of BISCO}
-\label{biscosetup}
+\includegraphics[width=14cm]{bsccosetup.jpg}
+\caption{The setup of experiment of BSCCO}
+\label{bsccosetup}
 \end{figure}
 
-The thermal couple is connected to the left lock-in amplifier in Fig. \ref{biscosetup}, which has a time constant of 1s and a gain of 1000. The output is fed to a DMM which is read by the computer. \\
+The thermal couple is connected to the left lock-in amplifier in Fig. \ref{bsccosetup}, which has a time constant of 1s and a gain of 1000. The output is fed to a DMM which is read by the computer. \\
 
-A Model SR830 DSP lock-in amplifier (simplified as SR830 lock-in amplifier, gray equipment on the lower right in Fig. \ref{biscosetup}) is employed in this experiment. The most important feature of this lock-in amplifier is that it feeds the sample a sine signal and then it detects the in-phase and out-of-phase feedbacks from the sample separately, with in-phase feedback shown in channel 1 (left) and the out-of-phase one shown in channel 2 (right). \\
+A Model SR830 DSP lock-in amplifier (simplified as SR830 lock-in amplifier, gray equipment on the lower right in Fig. \ref{bsccosetup}) is employed in this experiment. The most important feature of this lock-in amplifier is that it feeds the sample a sine signal and then it detects the in-phase and out-of-phase feedbacks from the sample separately, with in-phase feedback shown in channel 1 (left) and the out-of-phase one shown in channel 2 (right). \\
 
 When wires are close together, they form a capacitor. When they curl, they become inductors. In both situations the wires bring in noise if we only want to know the voltage across the resistor. Normally the noise would be so small that it could be safely neglected. However, the resistance of the superconductor drops to such a low level that that noise becomes dominant. To distinguish between signal and noise, a sine input is introduced. The resistor outputs a voltage that is in-phase with the input, while the "capacitors" and "inductors" formed by wires yield voltage that has a $\pi/2$ phase delay. We could filter out the noise by only taking the in-phase voltage. \\
 
-SR830 lock-in amplifier has a sine voltage output, whose peak to peak value is measure to be $2.8 \pm 0.02 V$. This output is fed to the input of a breakout box (the black box in the upper right in Fig. \ref{biscosetup}), and then converted to a current through a resistor of $1k\Omega$. This current now acts as the "DC power supply" in Fig. \ref{fpp}, and is introduced into the circuit through the black wires (the current probe). The yellow leads (the voltage probe) are connected to a transformer preamplifier with a gain of 500, which is then connected back to the SR830 lock-in amplifier. The in-phase channel (CH1) is read by another DMM which ultimately communicates with the computer. LabView is used to collect the readings from the two DMMs: the voltage from the thermal couple and the in-phase voltage signal from the SR830 lock-in amplifier. \\
+SR830 lock-in amplifier has a sine voltage output, whose peak to peak value is measure to be $2.8 \pm 0.02 V$. This output is fed to the input of a breakout box (the black box in the upper right in Fig. \ref{bsccosetup}), and then converted to a current through a resistor of $1k\Omega$. This current now acts as the "DC power supply" in Fig. \ref{fpp}, and is introduced into the circuit through the black wires (the current probe). The yellow leads (the voltage probe) are connected to a transformer preamplifier with a gain of 500, which is then connected back to the SR830 lock-in amplifier. The in-phase channel (CH1) is read by another DMM which ultimately communicates with the computer. LabView is used to collect the readings from the two DMMs: the voltage from the thermal couple and the in-phase voltage signal from the SR830 lock-in amplifier. \\
 
 The resistance of the superconductor can be calculated by
 
@@ -132,7 +132,7 @@ and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the t
 
 \subsection{YBCO}
 
-\subsection{BISCO}
+\subsection{BSCCO}
 
 
 
