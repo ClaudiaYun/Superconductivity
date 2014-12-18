@@ -61,20 +61,14 @@ R=\frac{V}{I}
 \label{ohm}
 \end{equation}
 
-where V and I are readings of the voltmeter and ammeter respectively. The key point here is that leads 2 and 3 have to be inside leads 1 and 4, in terms of position on the sample. Picture the meters as ideal meters plus lead resistance. The advantage of doing so is that the ammeter approximately measures the current through the sample, because the resistance of the voltmeter is so much bigger than that of the superconductor that the current through the voltmeter is very close to zero; and the voltmeter only measures the voltage across the sample. However, i f the position of the ammeter and voltmeter were switched, as shown in Fig. \ref{fpp2}, the voltmeter would measure the voltage across the lead resistance of the ammeter and the sample resistance connected in parallel. The total resistance of the two in parallel would differ from the sample resistance a lot because when superconducting, the resistance of the sample is comparable to the resistance of the lead. \\
+where V and I are readings of the voltmeter and ammeter respectively. The key point here is that leads 2 and 3 have to be inside leads 1 and 4, in terms of position on the sample. Picture the meters as ideal meters plus lead resistance. The advantage of doing so is that the ammeter approximately measures the current through the sample, because the resistance of the voltmeter is so much bigger than that of the superconductor that the current through the voltmeter is very close to zero; and the voltmeter only measures the voltage across the sample. However, i f the position of the ammeter and voltmeter were switched, as the second circuit shown in Fig. \ref{fpp}, the voltmeter would measure the voltage across the lead resistance of the ammeter and the sample resistance connected in parallel. The total resistance of the two in parallel would differ from the sample resistance a lot because when superconducting, the resistance of the sample is comparable to the resistance of the lead. \\
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=8cm]{fourpointprobe2.png}
-\caption{Schematic of four point probe}
+\includegraphics[width=10cm]{fourpointprobe2.png}
+\includegraphics[width=10cm]{fourpointprobe3.png}
+\caption{Schematic of four point probe. The second is the bad configuration.}
 \label{fpp}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=8cm]{fourpointprobe3.png}
-\caption{Schematic of the other (bad) configuration of four point probe}
-\label{fpp2}
 \end{figure}
 
 The sample is connected to two digital multimeters (DMM) (top two in Fig. \ref{meters}) and one power source {bottom one in Fig. \ref{meters}}. The top one is measuring the voltage across the thermocouple, and the voltage can be translated into temperature according to the table in Fig. \ref{temp}. \\
@@ -99,7 +93,38 @@ However, the drawback of this setup is that we could not make computer record th
 
 \subsection{BISCO}
 
-The device of BISCO employs the same four point probe method. 
+The setup of the experiment on BISCO is shown in Fig. \ref{biscosetup}. The device is also put in a plastic-foam cup and covered by sands. This device is designed in the same manner as the YBCO sample using four point probe.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=14cm]{biscosetup.jpg}
+\caption{The setup of experiment of BISCO}
+\label{biscosetup}
+\end{figure}
+
+The thermal couple is connected to the left lock-in amplifier in Fig. \ref{biscosetup}, which has a time constant of 1s and a gain of 1000. The output is fed to a DMM which is read by the computer. \\
+
+A Model SR830 DSP lock-in amplifier (simplified as SR830 lock-in amplifier, gray equipment on the lower right in Fig. \ref{biscosetup}) is employed in this experiment. The most important feature of this lock-in amplifier is that it feeds the sample a sine signal and then it detects the in-phase and out-of-phase feedbacks from the sample separately, with in-phase feedback shown in channel 1 (left) and the out-of-phase one shown in channel 2 (right). \\
+
+When wires are close together, they form a capacitor. When they curl, they become inductors. In both situations the wires bring in noise if we only want to know the voltage across the resistor. Normally the noise would be so small that it could be safely neglected. However, the resistance of the superconductor drops to such a low level that that noise becomes dominant. To distinguish between signal and noise, a sine input is introduced. The resistor outputs a voltage that is in-phase with the input, while the "capacitors" and "inductors" formed by wires yield voltage that has a $\pi/2$ phase delay. We could filter out the noise by only taking the in-phase voltage. \\
+
+SR830 lock-in amplifier has a sine voltage output, whose peak to peak value is measure to be $2.8 \pm 0.02 V$. This output is fed to the input of a breakout box (the black box in the upper right in Fig. \ref{biscosetup}), and then converted to a current through a resistor of $1k\Omega$. This current now acts as the "DC power supply" in Fig. \ref{fpp}, and is introduced into the circuit through the black wires (the current probe). The yellow leads (the voltage probe) are connected to a transformer preamplifier with a gain of 500, which is then connected back to the SR830 lock-in amplifier. The in-phase channel (CH1) is read by another DMM which ultimately communicates with the computer. LabView is used to collect the readings from the two DMMs: the voltage from the thermal couple and the in-phase voltage signal from the SR830 lock-in amplifier. \\
+
+The resistance of the superconductor can be calculated by
+
+\begin{equation}
+R_{superconductor} = \frac{V_{in-phse}/g}{I}
+\label{rofs}
+\end{equation}
+
+where
+
+\begin{equation}
+I=\frac{V_{max}}{R_{breakout}}
+\label{current}
+\end{equation}
+
+and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the transformer, $V_{max}=1.4\pm0.01V$ is the maximal input sine voltage from SR830 lock-in amplifier and $R_{breakout}=1k\Omega$ is the resistance in the breakout box. And the temperature of the sample could be converted from the voltage across the thermal couple using the table in Fig. \ref{temp}.\\
 
 
 %____________Results____________________________________________

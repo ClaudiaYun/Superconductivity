@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 DEC 2014 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 DEC 2014 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,79 +353,113 @@ File: fourpointprobe2.png Graphic file (type png)
 
 <use fourpointprobe2.png>
 Package pdftex.def Info: fourpointprobe2.png used on input line 68.
-(pdftex.def)             Requested size: 227.62204pt x 156.77574pt.
+(pdftex.def)             Requested size: 284.52756pt x 195.96968pt.
 
 <fourpointprobe3.png, id=24, 231.11343pt x 149.05687pt>
 File: fourpointprobe3.png Graphic file (type png)
 
 <use fourpointprobe3.png>
-Package pdftex.def Info: fourpointprobe3.png used on input line 75.
-(pdftex.def)             Requested size: 227.62204pt x 146.8071pt.
+Package pdftex.def Info: fourpointprobe3.png used on input line 69.
+(pdftex.def)             Requested size: 284.52756pt x 183.52081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 <ybcometers.jpg, id=25, 2457.18pt x 3276.24pt>
 File: ybcometers.jpg Graphic file (type jpg)
  <use ybcometers.jpg>
-Package pdftex.def Info: ybcometers.jpg used on input line 84.
+Package pdftex.def Info: ybcometers.jpg used on input line 78.
 (pdftex.def)             Requested size: 284.52756pt x 379.33423pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<temperature.pdf, id=26, 495.5369pt x 405.77467pt>
+ [4 <./fourpointprobe2.png> <./fourpointprobe3.png>]
+<temperature.pdf, id=31, 495.5369pt x 405.77467pt>
 File: temperature.pdf Graphic file (type pdf)
  <use temperature.pdf>
-Package pdftex.def Info: temperature.pdf used on input line 91.
+Package pdftex.def Info: temperature.pdf used on input line 85.
 (pdftex.def)             Requested size: 398.33858pt x 326.18047pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+LaTeX Warning: Reference `fpp2' on page 5 undefined on input line 90.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-[4 <./fourpointprobe2.png> <./fourpointprobe3.png>] [5 <./ybcometers.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[5 <./ybcometers.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[6 <./temperature.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[6 <./temperature.pdf>] <biscosetup.jpg, id=48, 3276.24pt x 2457.18pt>
+File: biscosetup.jpg Graphic file (type jpg)
+
+<use biscosetup.jpg>
+Package pdftex.def Info: biscosetup.jpg used on input line 100.
+(pdftex.def)             Requested size: 398.33858pt x 298.7482pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[7 <./biscosetup.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, $\OT1/cmtt/m/n/10.95 http : / / internal
  . physics . uwa . edu . au / []stamps / 2006Y3Lab /
  []
 
 No file Superconductivity.bbl.
-[7] (./Superconductivity.aux) ) 
+[9] (./Superconductivity.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4272 strings out of 493117
- 57215 string characters out of 6135433
- 132075 words of memory out of 5000000
- 7673 multiletter control sequences out of 15000+600000
- 11906 words of font info for 46 fonts, out of 8000000 for 9000
+ 4282 strings out of 493117
+ 57356 string characters out of 6135433
+ 133103 words of memory out of 5000000
+ 7682 multiletter control sequences out of 15000+600000
+ 12213 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,30p,1216b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt10.pfb>
-Output written on Superconductivity.pdf (7 pages, 8448628 bytes).
+ 38i,6n,30p,1225b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Superconductivity.pdf (9 pages, 10749061 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
