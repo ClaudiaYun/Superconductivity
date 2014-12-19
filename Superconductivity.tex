@@ -65,9 +65,9 @@ where V and I are readings of the voltmeter and ammeter respectively. The key po
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{fourpointprobe2.png}
-\includegraphics[width=10cm]{fourpointprobe3.png}
-\caption{Schematic of four point probe. The second is the bad configuration.}
+\includegraphics[width=8cm]{fourpointprobe2.png}
+\includegraphics[width=8cm]{fourpointprobe3.png}
+\caption{Schematic of four point probe. The right is the bad configuration. The circuits are drawn with online tool Scheme-it \cite{drawcircuit}.}
 \label{fpp}
 \end{figure}
 
@@ -131,8 +131,60 @@ and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the t
 \section{Results}
 
 \subsection{YBCO}
+The temperature, converted from thermal couple voltage and resistance of the superconductor are collected and plotted, as shown in Fig, \ref{ybco10ma}. Then the high temperature part, the transit part and the low temperature are fitted with lines. The intersections of the high temperature and the transit part, and of the low temperature and the transit part are found. The critical temperature is then calculated by averaging the temperatures of the two intersecting points. Fig. \ref{ybcoanalysis} shows the analysis. (Figures of analyses of other data sets are shown in the appendix.)
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=14cm]{ybco10ma_raw.png}
+\caption{Resistance vs. temperature of YBCO when current is 10mA}
+\label{ybco10ma}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=14cm]{ybco10ma.png}
+\caption{Analysis of data. The percentage uncertainties are indicated in the parenthesis. }
+\label{ybcoanalysis}
+\end{figure}
+
+The critical temperatures of YBCO at different currents are found and listed in Table. \ref{ybcodata}. The critical temperature in the last row are calculated from data collected by using the BSCCO setup for comparison. \\
+
+It can be seen that the uncertainties for the critical temperatures are huge, which is a result of the small number of data points we have. And that is because we have to transcribe the data from videos into computers by hand, which is not a very efficient or economical method.\\
+
+\begin{table}[h]
+\centering
+\caption{YBCO Critical Temperature}
+\begin{ruledtabular}
+\begin{tabular}{ c c c}
+Current & Critical Temperature & Uncertainty\\
+(mA) & (K) & (\%)\\
+\hline
+0.1 & 115.9 & 60 \\
+1 & 117.6 & 73 \\
+10 & 119.4 & 23 \\
+100 & 115.5 & 53 \\
+N/A & 109.5 & 3.8 \\
+\end{tabular}
+\end{ruledtabular}
+\label{ybcodata}
+\end{table}
 
 \subsection{BSCCO}
+Only one set of data is obtained for BSCCO. The raw data is shown in Fig. \ref{bsccoraw}. The same line-fitting is done to the BSCCO data. However, the data of BSCCO are not as clean as that of YBCO: the high temperature part (low thermal couple voltage part) does not show an obvious linear relation. Therefore only the first linear section before the transit part is fitted (thermal couple voltage ranges from around 3.5V to 4.5V). The analysis is shown in Fig. \ref{bsccoanalysis}.\\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=14cm]{bscco_heating_raw.png}
+\caption{Raw data of BSCCO. The x axis is the thermal couple voltage, which can be converted to temperature. The y axis is the in-phase signal voltage, which can be converted to resistance using Eq. \ref{rofs}.}
+\label{bsccoraw}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=14cm]{bscco_heating.png}
+\caption{Analysis of BSCCO data}
+\label{bsccoraw}
+\end{figure}
 
 
 
@@ -141,6 +193,7 @@ and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the t
 
 %____________Conclusion____________________________________________
 \section{Conclusion}
+
 
 
 \begin{acknowledgments}
@@ -159,5 +212,33 @@ We gratefully acknowledge Nathanael Fortune and Dana Parsons, who helped with th
 \end{thebibliography}
 
 %\newpage   % Start a new page for tables
+
+%____________Appendix_____________________________________________
+\clearpage
+\begin{appendix}
+\section{Figures of analyses}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{ybco01ma.png}
+\caption{Analysis of data at current equal to 0.1mA }
+\label{ybcoanalysis2}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{ybco1ma.png}
+\caption{Analysis of data at current equal to 1mA }
+\label{ybcoanalysis3}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{ybco100ma.png}
+\caption{Analysis of data at current equal to 100mA}
+\label{ybcoanalysis4}
+\end{figure}
+
+\end{appendix}
 
 \end{document}
