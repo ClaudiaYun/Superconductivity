@@ -108,7 +108,7 @@ A Model SR830 DSP lock-in amplifier (simplified as SR830 lock-in amplifier, gray
 
 When wires are close together, they form a capacitor. When they curl, they become inductors. In both situations the wires bring in noise if we only want to know the voltage across the resistor. Normally the noise would be so small that it could be safely neglected. However, the resistance of the superconductor drops to such a low level that that noise becomes dominant. To distinguish between signal and noise, a sine input is introduced. The resistor outputs a voltage that is in-phase with the input, while the "capacitors" and "inductors" formed by wires yield voltage that has a $\pi/2$ phase delay. We could filter out the noise by only taking the in-phase voltage. \\
 
-SR830 lock-in amplifier has a sine voltage output, whose peak to peak value is measure to be $2.8 \pm 0.02 V$. This output is fed to the input of a breakout box (the black box in the upper right in Fig. \ref{bsccosetup}), and then converted to a current through a resistor of $1k\Omega$. This current now acts as the "DC power supply" in Fig. \ref{fpp}, and is introduced into the circuit through the black wires (the current probe). The yellow leads (the voltage probe) are connected to a transformer preamplifier with a gain of 500, which is then connected back to the SR830 lock-in amplifier. The in-phase channel (CH1) is read by another DMM which ultimately communicates with the computer. LabView is used to collect the readings from the two DMMs: the voltage from the thermal couple and the in-phase voltage signal from the SR830 lock-in amplifier. \\
+SR830 lock-in amplifier has a sine voltage output, whose peak to peak value is measure to be $2.80 \pm 0.02 V$. Therefore it has the root mean square value is $0.990\pm0.007V$. This output is fed to the input of a breakout box (the black box in the upper right in Fig. \ref{bsccosetup}), and then converted to a current through a resistor of $1k\Omega$. This current now acts as the "DC power supply" in Fig. \ref{fpp}, and is introduced into the circuit through the black wires (the current probe). The yellow leads (the voltage probe) are connected to a transformer preamplifier with a gain of 500, which is then connected back to the SR830 lock-in amplifier. The in-phase channel (CH1) is read by another DMM which ultimately communicates with the computer. LabView is used to collect the readings from the two DMMs: the voltage from the thermal couple and the in-phase voltage signal from the SR830 lock-in amplifier. \\
 
 The resistance of the superconductor can be calculated by
 
@@ -120,11 +120,11 @@ R_{superconductor} = \frac{V_{in-phse}/g}{I}
 where
 
 \begin{equation}
-I=\frac{V_{max}}{R_{breakout}}
+I=\frac{V_{rms}}{R_{breakout}}
 \label{current}
 \end{equation}
 
-and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the transformer, $V_{max}=1.4\pm0.01V$ is the maximal input sine voltage from SR830 lock-in amplifier and $R_{breakout}=1k\Omega$ is the resistance in the breakout box. And the temperature of the sample could be converted from the voltage across the thermal couple using the table in Fig. \ref{temp}.\\
+and $V_{in-phse}$ is the in-phase voltage measured, $g=500$ is the gain of the transformer, $V_{rms}=0.990\pm0.007V$ is the maximal input sine voltage from SR830 lock-in amplifier and $R_{breakout}=1k\Omega$ is the resistance in the breakout box. And the temperature of the sample could be converted from the voltage across the thermal couple using the table in Fig. \ref{temp}.\\
 
 
 %____________Results____________________________________________

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 DEC 2014 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 DEC 2014 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,15 +324,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-LaTeX Warning: Reference `setup' on page 2 undefined on input line 41.
-
-
-LaTeX Warning: Reference `sample' on page 2 undefined on input line 41.
-
-
-LaTeX Warning: Reference `setup' on page 2 undefined on input line 41.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -352,14 +343,7 @@ Package pdftex.def Info: ybcosample.jpg used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fpp' on page 2 undefined on input line 57.
-
 [2 <./ybcosetup.jpg>]
-
-LaTeX Warning: Reference `fpp' on page 3 undefined on input line 64.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -377,16 +361,6 @@ File: fourpointprobe3.png Graphic file (type png)
 <use fourpointprobe3.png>
 Package pdftex.def Info: fourpointprobe3.png used on input line 69.
 (pdftex.def)             Requested size: 284.52756pt x 183.52081pt.
-
-
-LaTeX Warning: Reference `meters' on page 4 undefined on input line 74.
-
-
-LaTeX Warning: Reference `meters' on page 4 undefined on input line 74.
-
-
-LaTeX Warning: Reference `temp' on page 4 undefined on input line 74.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
@@ -408,9 +382,6 @@ Package pdftex.def Info: temperature.pdf used on input line 85.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fpp' on page 5 undefined on input line 90.
-
-
 LaTeX Warning: Reference `fpp2' on page 5 undefined on input line 90.
 
 
@@ -423,9 +394,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-
-LaTeX Warning: Reference `bsccosetup' on page 6 undefined on input line 96.
-
 [6 <./temperature.pdf>] <bsccosetup.jpg, id=48, 3276.24pt x 2457.18pt>
 File: bsccosetup.jpg Graphic file (type jpg)
 
@@ -433,16 +401,9 @@ File: bsccosetup.jpg Graphic file (type jpg)
 Package pdftex.def Info: bsccosetup.jpg used on input line 100.
 (pdftex.def)             Requested size: 398.33858pt x 298.7482pt.
 
-
-LaTeX Warning: Reference `bsccosetup' on page 7 undefined on input line 105.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
-
-
-LaTeX Warning: Reference `bsccosetup' on page 7 undefined on input line 107.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
@@ -455,19 +416,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 [7 <./bsccosetup.jpg>]
-
-LaTeX Warning: Reference `bsccosetup' on page 8 undefined on input line 111.
-
-
-LaTeX Warning: Reference `fpp' on page 8 undefined on input line 111.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
-
-
-LaTeX Warning: Reference `temp' on page 8 undefined on input line 127.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
@@ -475,38 +426,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
  []
 
 [8]
-
-LaTeX Warning: Reference `LastBibItem' on page 9 undefined on input line 153.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, $\OT1/cmtt/m/n/10.95 http : / / internal
  . physics . uwa . edu . au / []stamps / 2006Y3Lab /
  []
 
 No file Superconductivity.bbl.
-[9] (./Superconductivity.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[9] (./Superconductivity.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 4284 strings out of 493117
- 57375 string characters out of 6135433
- 132907 words of memory out of 5000000
- 7683 multiletter control sequences out of 15000+600000
- 12522 words of font info for 48 fonts, out of 8000000 for 9000
+ 4282 strings out of 493117
+ 57356 string characters out of 6135433
+ 134103 words of memory out of 5000000
+ 7682 multiletter control sequences out of 15000+600000
+ 12213 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,30p,1225b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,30p,1225b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -518,7 +456,7 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Superconductivity.pdf (9 pages, 10749373 bytes).
+Output written on Superconductivity.pdf (9 pages, 10748956 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
